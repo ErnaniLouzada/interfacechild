@@ -1,0 +1,269 @@
+
+/* 
+** Theme Name:  Interface Child
+*  Theme URI:   http://ernanilouzada.com.br/
+** Author:      Ernani Louzada
+*  Description: Theme child the interface
+*  Template:    interface
+*/
+
+/* Icone de serviço */
+.service-item .service-icon {
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #7DD3F7;
+}
+/* Site Generator */
+#site-generator {
+	background-image: url("img/noise.png");
+	color: #111111;
+	padding: 30px 0px;
+}
+
+/* Slogan */
+.slogan-wrap {
+	background-color: #465568;
+	padding: 20px 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	margin-top: -1px;
+}
+/* Cor do info bar */
+.info-bar .info ul li:before {
+	margin-top: 3px;
+	margin-right: 5px;
+	color: #7DD3F7;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: 'Genericons';
+	vertical-align: top;
+}
+/* Promotional Bar Widget */
+.widget_promotional_bar {
+	background-color:#7DD3F7;
+	padding: 30px 30px 30px 26px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-left: 4px solid #465568;
+}
+
+/* Call To Action Button*/
+.call-to-action {
+	color: #fff;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	padding: 9px 20px 9px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #465568;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+/* Acao */
+.call-to-action:hover {
+	background-color: #7DD3F7;
+}
+#site-title a span,
+#site-title a:hover,
+#site-title a:focus,
+#site-title a:active {
+	color: #7DD3F7;
+}
+#access a:hover,
+#access ul li.current-menu-item a,
+#access ul li.current_page_ancestor a,
+#access ul li.current-menu-ancestor a,
+#access ul li.current_page_item a,
+#access ul li:hover > a {
+	color: #7DD3F7;
+}	
+/* background page */
+.page-title-wrap {
+	background-color: #7DD3F7;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 20px 0;
+	margin-top: -1px;
+}
+/* Readmore */
+a.readmore {
+	color: #fff;
+	display: inline-block;
+	padding: 5px 25px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 1px 8px 2px;
+	margin-bottom: 7px;
+	float: right;
+	background-color: #7DD3F7;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+/* Cor do link rodape */
+a.readmore:hover {
+	background-color: #465568;
+}
+/* Cor quando usuario seleciona */
+::selection {
+	background: #7DD3F7;
+	color: #fff;
+}
+/* Cor do input rodape */
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+	border: 0 none;
+	cursor: pointer;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	height: 40px;
+	padding: 0px 20px;
+	margin-top: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #7DD3F7;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+/* Cor do input rodape */
+input[type="reset"]:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+	background-color: #465568;
+}
+/* Cor da pesquisa topo */
+.search-toggle:hover,
+.hgroup-right .active {
+	color: #7DD3F7;
+}
+/* Widget rodape */
+#colophon .widget ul li a:hover {
+	color: #465568;
+}
+#colophon .widget ul li a {
+	color: #FFF;
+}
+#colophon .widget-wrap {
+	background-color: #7DD3F7;
+	color: #888;
+}
+.back-to-top a:hover {
+	opacity: 10;
+	-moz-opacity: 10;
+	filter:alpha(opacity=100);
+	background-color: #465568;
+}
+#content ul a,
+#content ol a {
+	color: #465568;
+}
+#content ul a:hover,
+#content ol a:hover {
+	text-decoration: none;
+	color: #7DD3F7;
+}
+.su-tabs {
+	margin: 0 0 1.5em 0;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #7DD3F7 !important;	
+}
+/* Padding da pagina de serviço wordpress */
+.su-service-content {
+    padding-left:  10px !important;
+    padding-right: 10px !important;   
+}
+/* Padding do widget serciço */
+.su-service .su-service-title{
+	padding-left: 55px !important;
+}
+/* background-color do slider */
+.featured-text .featured-title {
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 42px;
+	padding: 10px 20px;
+	background-color: #465568;
+	background-color: rgba(70, 85, 104, 0.9);
+	color: #fff;
+}
+/* Texto saiba mais service homepage */
+a.more-link:hover {
+	text-decoration: none;
+}
+/* Links */
+a {
+	color: #7DD3F7;
+	text-decoration: none;
+}
+/* Metadados blog */
+.entry-meta a:hover,
+.entry-meta .cat-links a:hover {
+	color: #7DD3F7;
+}
+/* Hover do titulo blog */
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: #7DD3F7;
+}
+/* Cor do background previus */
+#wp_page_numbers ul li a:hover,
+#wp_page_numbers ul li.active_page a,
+.wp-pagenavi .current,
+.wp-pagenavi a:hover,
+ul.default-wp-page li a:hover,
+.pagination span {
+	color: #fff;
+	background-color: #7DD3F7;
+}
+/* Sub menu */
+#access ul li ul {
+	position: absolute;
+	background-color: #fff;
+	border-top: 4px solid #7DD3F7;
+	top: 100px;
+	left: 0;
+	width: 190px;
+	-webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Serviços menu rodape */
+#colophon .widget-title {
+	font-size: 17px;
+	text-transform: uppercase;
+	line-height: 24px;
+	color: #FFF;
+	font-weight: bold;
+}
